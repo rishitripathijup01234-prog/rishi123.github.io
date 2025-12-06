@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi's Portfolio</title>
+
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Introduction -->
+    <header>
+        <h1 class="fade-in" data-aos="fade-down">Hi, I'm Rishi</h1>
+        <p class="fade-in-delay" data-aos="fade-up">Frontend Developer | HTML, CSS, JavaScript | Responsive Web Design
+        </p>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" data-aos="fade-right">
+        <h2>About Me</h2>
+        <p>BCA Student | Frontend Developer with experience in HTML, CSS, JavaScript, and responsive websites. Knowledge
+            of Python & Apache Spark. Dedicated to delivering high-quality work for clients.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" data-aos="fade-left">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Landing Pages</li>
+            <li>Frontend Development</li>
+            <li>Python</li>
+            <li>Apache Spark</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2 data-aos="fade-up">Projects</h2>
+        <div class="project" data-aos="zoom-in">
+            <img src="images/project1.png" alt="Project 1">
+            <h3>Landing Page Example</h3>
+            <p>Responsive landing page using HTML, CSS, and JavaScript.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project" data-aos="zoom-in" data-aos-delay="200">
+            <img src="images/project2.png" alt="Project 2">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio website with contact form.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    </section>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+
+</html>
